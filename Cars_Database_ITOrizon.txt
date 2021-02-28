@@ -1,0 +1,9 @@
+create database cars
+use cars
+
+create table login(emailId varchar(20),password varchar(20))
+select * from login
+insert into login values('bean@gmail.com','Mrbean')
+
+create table Collections(Company varchar(20),Model varchar(20),Color varchar(20),Date_of_purchase Date,Price int,Engine_Capacity varchar(20),Licence_Plate_Number varchar(20),Seating_Capacity int,Price_Range varchar(20),Year_of_purchase Year)
+select * from Collections
